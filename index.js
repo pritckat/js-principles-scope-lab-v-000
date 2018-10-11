@@ -2,7 +2,7 @@
 var customerName = 'bob';
 const leastFavoriteCustomer = 'pup'
 function upperCaseCustomerName() {
-  customerName = 'BOB'
+  customerName = customerName.toUpperCase()
 }
 
 function setBestCustomer() {
